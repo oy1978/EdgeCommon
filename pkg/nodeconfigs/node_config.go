@@ -14,14 +14,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/ddosconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/firewallconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeCommon/pkg/nodeutils"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/ddosconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/firewallconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 var sharedNodeConfig *NodeConfig = nil

@@ -4,11 +4,12 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/firewallconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/sslconfigs"
-	"golang.org/x/net/idna"
 	"regexp"
+
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/firewallconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/sslconfigs"
+	"golang.org/x/net/idna"
 )
 
 var normalServerNameReg = regexp.MustCompile(`^[a-zA-Z0-9.-]+$`)

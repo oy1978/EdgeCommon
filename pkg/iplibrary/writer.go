@@ -7,13 +7,14 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
 	"hash"
 	"io"
 	"net"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
 )
 
 type hashWriter struct {

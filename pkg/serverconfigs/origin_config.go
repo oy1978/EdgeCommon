@@ -3,13 +3,14 @@ package serverconfigs
 import (
 	"context"
 	"fmt"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/ossconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/sslconfigs"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/ossconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/sslconfigs"
 )
 
 // OriginConfig 源站服务配置

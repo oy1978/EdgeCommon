@@ -1,11 +1,12 @@
 package nodeconfigs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	_ "github.com/iwind/TeaGo/bootstrap"
-	"github.com/iwind/TeaGo/logs"
 	"testing"
 	"time"
+
+	_ "github.com/iwind/TeaGo/bootstrap"
+	"github.com/iwind/TeaGo/logs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
 )
 
 func TestSharedNodeConfig(t *testing.T) {

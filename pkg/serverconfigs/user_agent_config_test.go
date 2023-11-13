@@ -3,10 +3,11 @@
 package serverconfigs_test
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	"github.com/iwind/TeaGo/assert"
 	"net/http"
 	"testing"
+
+	"github.com/iwind/TeaGo/assert"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
 )
 
 func TestUserAgentConfig_AllowRequest(t *testing.T) {

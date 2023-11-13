@@ -1,8 +1,8 @@
 package serverconfigs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 const HealthCheckHeaderName = "X-Edge-Health-Check-Key"

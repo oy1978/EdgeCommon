@@ -7,12 +7,13 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
-	"github.com/iwind/TeaGo/lists"
 	"reflect"
 	"strconv"
 	"time"
+
+	"github.com/iwind/TeaGo/lists"
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 // SSLCertConfig SSL证书

@@ -3,7 +3,7 @@
 package serverconfigs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 // HTTPExpiresTimeConfig 发送到客户端的过期时间设置

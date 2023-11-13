@@ -3,8 +3,8 @@
 package dnsconfigs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
 	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
 )
 
 type DNSResolver struct {

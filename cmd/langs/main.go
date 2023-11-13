@@ -6,11 +6,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs"
-	"github.com/iwind/TeaGo/Tea"
-	_ "github.com/iwind/TeaGo/bootstrap"
-	"github.com/iwind/TeaGo/lists"
-	"github.com/iwind/TeaGo/types"
 	"go/format"
 	"os"
 	"path/filepath"
@@ -18,6 +13,12 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/iwind/TeaGo/Tea"
+	_ "github.com/iwind/TeaGo/bootstrap"
+	"github.com/iwind/TeaGo/lists"
+	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeCommon/pkg/langs"
 )
 
 func main() {
@@ -179,7 +180,7 @@ func runGenerate() {
 package codes
 
 import(
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs"
+	"github.com/oy1978/EdgeCommon/pkg/langs"
 )
 
 const (
@@ -225,7 +226,7 @@ const (
 package messages
 
 import(
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs"
+	"github.com/oy1978/EdgeCommon/pkg/langs"
 )
 
 func init() {

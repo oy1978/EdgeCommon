@@ -1,6 +1,6 @@
 package dao
 
-import "github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+import "github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 
 var sharedRPCClient RPCClient
 

@@ -3,9 +3,10 @@
 package serverconfigs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
-	"github.com/iwind/TeaGo/lists"
 	"strings"
+
+	"github.com/iwind/TeaGo/lists"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 var DefaultHTTPCompressionTypes = []HTTPCompressionType{HTTPCompressionTypeBrotli, HTTPCompressionTypeGzip, HTTPCompressionTypeDeflate}

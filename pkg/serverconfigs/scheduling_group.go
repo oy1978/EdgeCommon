@@ -3,9 +3,9 @@
 package serverconfigs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/schedulingconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/schedulingconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 // SchedulingGroup 负载均衡分组

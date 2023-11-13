@@ -1,6 +1,6 @@
 package serverconfigs
 
-import "github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/ossconfigs"
+import "github.com/oy1978/EdgeCommon/pkg/serverconfigs/ossconfigs"
 
 type Protocol string
 

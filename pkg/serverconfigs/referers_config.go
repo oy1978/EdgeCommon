@@ -2,7 +2,7 @@
 
 package serverconfigs
 
-import "github.com/TeaOSLab/EdgeCommon/pkg/configutils"
+import "github.com/oy1978/EdgeCommon/pkg/configutils"
 
 // NewReferersConfig 获取新防盗链配置对象
 func NewReferersConfig() *ReferersConfig {

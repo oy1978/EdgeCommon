@@ -3,8 +3,9 @@
 package shared_test
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
 	"testing"
+
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 func TestNewDataMap(t *testing.T) {

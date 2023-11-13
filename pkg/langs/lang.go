@@ -5,8 +5,9 @@ package langs
 import (
 	"errors"
 	"fmt"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
 	"strings"
+
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
 )
 
 const varPrefix = "lang."

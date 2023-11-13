@@ -2,10 +2,11 @@ package serverconfigs
 
 import (
 	"context"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 type HTTPLocationConfig struct {

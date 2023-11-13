@@ -6,12 +6,13 @@ import (
 	"bytes"
 	"encoding/json"
 	"errors"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
 	"io"
 	"net"
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
 )
 
 // Reader IP库Reader

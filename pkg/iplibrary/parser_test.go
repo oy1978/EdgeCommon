@@ -3,8 +3,9 @@
 package iplibrary_test
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/iplibrary"
 	"testing"
+
+	"github.com/oy1978/EdgeCommon/pkg/iplibrary"
 )
 
 func TestNewParser(t *testing.T) {

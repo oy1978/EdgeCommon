@@ -1,6 +1,6 @@
 package nodeconfigs
 
-import "github.com/TeaOSLab/EdgeCommon/pkg/reporterconfigs"
+import "github.com/oy1978/EdgeCommon/pkg/reporterconfigs"
 
 // Connectivity 连通性状态
 type Connectivity struct {

@@ -4,10 +4,11 @@ package iplibrary_test
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeCommon/pkg/iplibrary"
-	"github.com/iwind/TeaGo/maps"
 	"net"
 	"testing"
+
+	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeCommon/pkg/iplibrary"
 )
 
 func TestNewFileReader(t *testing.T) {

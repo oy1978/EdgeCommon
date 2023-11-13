@@ -1,9 +1,10 @@
 package serverconfigs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
 	"time"
+
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 // HTTPWebsocketConfig websocket设置

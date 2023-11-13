@@ -1,4 +1,4 @@
-module github.com/TeaOSLab/EdgeCommon
+module github.com/oy1978/EdgeCommon
 
 go 1.18
 

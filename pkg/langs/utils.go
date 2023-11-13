@@ -3,10 +3,11 @@
 package langs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/iwind/TeaGo/actions"
 	"net/http"
 	"strings"
+
+	"github.com/iwind/TeaGo/actions"
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
 )
 
 // Message 读取消息

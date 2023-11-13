@@ -1,9 +1,10 @@
 package serverconfigs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
-	"github.com/iwind/TeaGo/assert"
 	"testing"
+
+	"github.com/iwind/TeaGo/assert"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 func TestHTTPCachePolicy_IsSame(t *testing.T) {

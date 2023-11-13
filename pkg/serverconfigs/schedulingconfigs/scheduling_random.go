@@ -1,11 +1,12 @@
 package schedulingconfigs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
-	"github.com/iwind/TeaGo/maps"
 	"math"
 	"math/rand"
 	"time"
+
+	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 // RandomScheduling 随机调度算法

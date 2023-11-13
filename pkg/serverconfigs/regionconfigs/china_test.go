@@ -3,9 +3,10 @@
 package regionconfigs_test
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/regionconfigs"
-	"github.com/iwind/TeaGo/assert"
 	"testing"
+
+	"github.com/iwind/TeaGo/assert"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/regionconfigs"
 )
 
 func TestMatchUserRegion(t *testing.T) {

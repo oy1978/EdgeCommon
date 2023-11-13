@@ -4,14 +4,15 @@ package iplibrary_test
 
 import (
 	"bytes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/iplibrary"
-	"github.com/iwind/TeaGo/rands"
-	"github.com/iwind/TeaGo/types"
-	timeutil "github.com/iwind/TeaGo/utils/time"
 	"net"
 	"runtime"
 	"testing"
 	"time"
+
+	"github.com/iwind/TeaGo/rands"
+	"github.com/iwind/TeaGo/types"
+	timeutil "github.com/iwind/TeaGo/utils/time"
+	"github.com/oy1978/EdgeCommon/pkg/iplibrary"
 )
 
 func TestNewReader(t *testing.T) {

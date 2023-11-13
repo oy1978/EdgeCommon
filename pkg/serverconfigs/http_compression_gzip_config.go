@@ -1,7 +1,7 @@
 package serverconfigs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 // HTTPGzipCompressionConfig gzip配置

@@ -1,12 +1,13 @@
 package schedulingconfigs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
-	"github.com/iwind/TeaGo/maps"
-	"github.com/iwind/TeaGo/rands"
 	"math/rand"
 	"net/http"
 	"time"
+
+	"github.com/iwind/TeaGo/maps"
+	"github.com/iwind/TeaGo/rands"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 // StickyScheduling Sticky调度算法

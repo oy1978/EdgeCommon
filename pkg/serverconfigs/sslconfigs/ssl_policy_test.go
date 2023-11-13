@@ -4,10 +4,11 @@ package sslconfigs_test
 
 import (
 	"context"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/sslconfigs"
-	"github.com/iwind/TeaGo/assert"
 	"testing"
 	"time"
+
+	"github.com/iwind/TeaGo/assert"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/sslconfigs"
 )
 
 func TestSSLPolicy_MatchDomain(t *testing.T) {

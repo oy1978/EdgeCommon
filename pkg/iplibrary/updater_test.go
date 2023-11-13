@@ -3,12 +3,13 @@
 package iplibrary_test
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/iplibrary"
-	"github.com/iwind/TeaGo/Tea"
-	_ "github.com/iwind/TeaGo/bootstrap"
 	"io"
 	"testing"
 	"time"
+
+	"github.com/iwind/TeaGo/Tea"
+	_ "github.com/iwind/TeaGo/bootstrap"
+	"github.com/oy1978/EdgeCommon/pkg/iplibrary"
 )
 
 type updaterSource struct {

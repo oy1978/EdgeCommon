@@ -3,12 +3,13 @@
 package serverconfigs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/iwind/TeaGo/lists"
 	"net/http"
 	"path/filepath"
 	"regexp"
 	"strings"
+
+	"github.com/iwind/TeaGo/lists"
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
 )
 
 var httpAuthTimestampRegexp = regexp.MustCompile(`^\d{10}$`)

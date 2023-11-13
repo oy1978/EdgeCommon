@@ -2,7 +2,7 @@
 
 package userconfigs
 
-import "github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+import "github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 
 // UserFeatureCode 用户功能代号
 type UserFeatureCode = string

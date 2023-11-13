@@ -2,7 +2,7 @@
 
 package serverconfigs
 
-import "github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
+import "github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 
 // MetricItemCategory 指标分类
 type MetricItemCategory = string
