@@ -97,6 +97,7 @@ message UpdateHTTPFirewallPolicyRequest {
 	repeated string firewallGroupCodes = 5;
 	bytes blockOptionsJSON = 6;
 	bytes captchaOptionsJSON = 11;
+	bytes silOptionsJSON = 15;
 	string mode = 7;
 	bool useLocalFirewall = 8; // 是否使用本地防火墙
 	bytes synFloodJSON = 9; // SYN Flood相关配置

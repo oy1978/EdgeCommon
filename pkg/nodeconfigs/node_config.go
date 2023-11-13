@@ -603,7 +603,7 @@ func (this *NodeConfig) lookupWeb(server *serverconfigs.ServerConfig, web *serve
 			if (web.FirewallPolicy.CaptchaOptions == nil || !web.FirewallPolicy.CaptchaOptions.IsPrior) && server.HTTPFirewallPolicy.CaptchaOptions != nil {
 				web.FirewallPolicy.CaptchaOptions = server.HTTPFirewallPolicy.CaptchaOptions
 			}
-			if (web.FirewallPolicy.SilOptions == nil || !web.FirewallPolicy.SilOptions.IsPrior) && server.HTTPFirewallPolicy.CaptchaOptions != nil {
+			if (web.FirewallPolicy.SilOptions == nil || !web.FirewallPolicy.SilOptions.IsPrior) && server.HTTPFirewallPolicy.SilOptions != nil {
 				web.FirewallPolicy.SilOptions = server.HTTPFirewallPolicy.SilOptions
 			}
 			if (web.FirewallPolicy.SYNFlood == nil || !web.FirewallPolicy.SYNFlood.IsPrior) && server.HTTPFirewallPolicy.SYNFlood != nil {
