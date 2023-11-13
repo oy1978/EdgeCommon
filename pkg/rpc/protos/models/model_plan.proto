@@ -1,0 +1,24 @@
+syntax = "proto3";
+option go_package = "./pb";
+
+package pb;
+
+message Plan {
+	int64 id = 1;
+	bool isOn = 2;
+	string name = 3;
+	int64 clusterId = 4;
+	bytes trafficLimitJSON = 5;
+	bytes featuresJSON = 6;
+	string priceType = 7;
+	bytes trafficPriceJSON = 8;
+	bytes bandwidthPriceJSON = 12;
+	double monthlyPrice = 9;
+	double seasonallyPrice = 10;
+	double yearlyPrice = 11;
+	int32 totalServers = 13; // 可以添加的网站数
+	int32 totalServerNamesPerServer = 14; // 每个网站可以添加的域名数
+	int32 totalServerNames = 15; // 可以添加的域名总数
+	int64 dailyRequests = 16; // 每日访问量额度
+	int64 monthlyRequests = 17; // 每月访问量额度
+}
